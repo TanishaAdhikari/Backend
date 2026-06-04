@@ -15,17 +15,9 @@ userSchema({
         type: String,
         required: [true, "Password is required"]
     },
-    createdAt: {
-        type: Date,
-        default: Date.now
-    },
-    updatedAt: {
-        type: Date,
-        default: Date.now
-    }
 }); 
 
-let user = model("user", userSchema); //table banako
+let User = model("User", userSchema); //table banako
 
-export default user;
+export default User;
 //jaile pani database ma data chai table ko form ma save huncha 
