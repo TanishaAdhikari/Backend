@@ -13,7 +13,7 @@ let app = express();
 
 app.listen(8000,()=>{
     console.log("server is running on port 8000");
-    mongoose.connect("mongodb://localhost:27017");
+    mongoose.connect("mongodb://localhost:27017/cosmos");
 });
 
 app.use(json());  //makes our backend to take data from postman or frontend
