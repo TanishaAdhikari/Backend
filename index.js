@@ -17,7 +17,7 @@ app.listen(8000,()=>{
 });
 
 app.use(json());  //makes our backend to take data from postman or frontend
-app.use(firstRoute);
+//app.use(firstRoute); yeslai basically comment out garne
 app.use("/product",productRoutes);
 app.use("/user",userRoutes);
 
