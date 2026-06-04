@@ -17,8 +17,8 @@ let productSchema = new Schema({
     },
 });
 
-let product = model("product", productSchema);
+let Product = model("Product", productSchema);
 
-export default product;
+export default Product;
 
 //database ra backend connect gara
