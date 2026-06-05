@@ -8,6 +8,7 @@ import { json } from "express";
 import firstRoute from "./src/routes/firstRoutes.js";
 import productRoutes from "./src/routes/productRoutes.js";
 import userRoutes from "./src/routes/userRoutes.js";
+import schoolRoutes from "./src/routes/schoolRoutes.js";
 import mongoose from "mongoose";
 let app = express();
 
